@@ -3,9 +3,10 @@
 describe("fizzBuzz", function () {
     var fizzBuzz = require('../fizzBuzz')
 
-    it("should exist", function () {
-       expect(fizzBuzz).to.equal("234234");
-    });
-    //describe("")
+    describe("when input is 1", function () {
+        it("should return number", function () {
+            expect(fizzBuzz(1)).to.equal(1);
+        });
+    })
 
 });
