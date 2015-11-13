@@ -1,6 +1,9 @@
 {
-  "name": "myApp",
-  "version": "0.0.0",
+  "name": "Mocha TDD",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "mocha test"
+  },
   "devDependencies": {
     "chai": "*",
     "mocha": "*"
